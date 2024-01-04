@@ -23,7 +23,7 @@ def main(args=None):  # main関数
     rclpy.init()
     node = HscrPub()
     # OpenAIのAPIキーを設定
-    openai.api_key = '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'
+    openai.api_key = ''
     try:
         rclpy.spin_once(node)
     except KeyboardInterrupt:
