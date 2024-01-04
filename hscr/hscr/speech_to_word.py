@@ -64,7 +64,7 @@ def speech_to_word_main(fs):
 
 if __name__ == '__main__':
     # OpenAIのAPIキーを設定
-    openai.api_key = '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'
+    openai.api_key = ''
 
     # 録音のパラメータ
     fs = 44100  # サンプルレート
